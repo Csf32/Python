@@ -28,7 +28,6 @@ print("--------------------------------------------------------")
 
 print(dados.loc[dados["credit_amount"] > 18000])
 print("--------------------------------------------------------")
-s = print(dados.loc[dados["credit_amount"] > 18000])
 
 colunaSecundaTerceira = dados[["checking_status", "duration"]].loc[dados["credit_amount"] > 18000]
 print(colunaSecundaTerceira)
